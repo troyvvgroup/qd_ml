@@ -5,17 +5,11 @@ This repository contains classifiers that have been trained to predict whether c
 
 Repository Structure
 --------------------
-models/
+models/:     Contains (.pkl) trained scikit-learn model files.
 
-    Contains (.pkl) trained scikit-learn model files.
-
-run_model.py
-
-	A simple python script to load a chosen model, select the appropriate set of features, and run the model to make and save predictions.
+run_model.py:     A simple python script to load a chosen model, select the appropriate set of features, and run the model to make and save predictions.
     
-README.txt
-
-    This file.
+README.txt:     This file.
 
 
 Example Usage
