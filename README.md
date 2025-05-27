@@ -6,7 +6,7 @@ This repository contains classifiers that have been trained to predict whether c
 Repository Structure
 --------------------
 models/
-    Contains serialized (.pkl) trained scikit-learn model files.
+    Contains (.pkl) trained scikit-learn model files.
 
 run_model.py
 	A simple python script to load a chosen model, select the appropriate set of features, and run the model to make and save predictions.
@@ -28,13 +28,14 @@ The models expect data in excel or csv format with specific columns.
 More details on the requisite features can be found in the SI of the paper. ()
 
 Required Columns:
-    - Participation Ratio (float)
-    - State Energy (eV) (float)
-    - Gating Participation Ratio (float)
-    - Total Under-Coordinated Cation Alpha (float)
-    - Total Fully-Coordinated Cation Alpha (float)
-    - Total Under-Coordinated Anion Alpha (float)
-    - Total Fully-Coordinated Anion Alpha (float)
+ 
+ 	- Participation Ratio (float)
+	- State Energy (eV) (float)
+	- Gating Participation Ratio (float)
+	- Total Under-Coordinated Cation Alpha (float)
+	- Total Fully-Coordinated Cation Alpha (float)
+	- Total Under-Coordinated Anion Alpha (float)
+	- Total Fully-Coordinated Anion Alpha (float)
     - Total Ligand Alpha (float)
     - Energy from HOMO (eV) (float)
     - HOMO Energy (eV) (float)
@@ -82,4 +83,4 @@ Required Columns:
 
 Author
 ------
-Your Name
+Ezra Alexander
