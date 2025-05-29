@@ -1,7 +1,7 @@
 Structural Trap Classifier Repository
 ==================================
 
-This repository contains classifiers that have been trained to predict whether certain fully-coordinated phosphorus in a quantum dot crystal structure are associated with structural trap states. If you're curious, check out the paper! ()
+This repository contains classifiers that have been trained to predict whether certain fully-coordinated phosphorus in a quantum dot crystal structure are associated with structural trap states. If you're curious, check out the paper! (arXiv:2505.22419)
 
 Repository Structure
 --------------------
@@ -22,7 +22,7 @@ Ensure that you use the correct input data format (see below).
 Input Data Format
 -----------------
 The models expect data in excel or csv format with specific columns. 
-More details on the requisite features can be found in the SI of the paper. ()
+More details on the requisite features can be found in the SI of the paper. (arXiv:2505.22419)
 
 Required Columns:
  
